@@ -2,14 +2,15 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Helvetica';
-    background-image: linear-gradient(to right, #e65753, #34073d);
+    background:#e65753; 
     color: white;
     text-align: center;
     padding-top: 30px;
+    font-size: 12px;
 }
 
 #tasks-container {
-    width: 500px;
+    width: 300px;
     margin: auto;
 }
 
@@ -28,7 +29,7 @@ body {
     background: white;
     color: #34073d;
     padding: 15px;
-    font-size: 18px;
+    font-size: 12px;
     width: 100%;
 }
 
@@ -48,7 +49,7 @@ body {
     cursor: pointer;
     transition: .5s;
     width: 60px;
-    height: 53px;
+    height: 46px;
     top: 0px;
     right: 0;
     padding-top: 3px;
@@ -60,7 +61,7 @@ body {
 }
 
 ion-icon {
-    font-size: 25px;
+    font-size: 15px;
 }
 
 /* tasks container */
@@ -72,8 +73,8 @@ ion-icon {
 
 #task-list li {
     text-align: left;
-    height: 50px;
-    line-height: 50px;
+    height: 30px;
+    line-height: 30px;
     position: relative;
     border-bottom: 3px solid #34073d;
     background-color: white;
@@ -85,21 +86,21 @@ ion-icon {
 }
 
 #task-list li span {
-    font-size: 18px;
+    font-size: 13px;
 }
 
 #task-list ion-icon {
     position: absolute;
     top:0;
-    height: 40px;
+    height: 20px;
     transition: .5s;
     cursor: pointer;
-    width: 30px;
+    width: 15px;
     padding: 5px;
 }
 
 .done-btn {
-    right: 40px;
+    right: 25px;
 }
 
 .done-btn:hover{
