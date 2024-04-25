@@ -46,8 +46,6 @@ body {
     position: absolute;
     background-color: white;
     border: 1px solid #34073d;
-    cursor: pointer;
-    transition: .5s;
     width: 60px;
     height: 47px;
     top: 0px;
