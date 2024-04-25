@@ -50,7 +50,8 @@ body {
     height: 47px;
     top: 0px;
     right: 0;
-    padding-top: 3px;
+    padding-top: 6px;
+    font-size: 17px;
 }
 
 #add-btn:hover{
