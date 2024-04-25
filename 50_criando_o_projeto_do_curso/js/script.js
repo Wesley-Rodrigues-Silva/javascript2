@@ -4,6 +4,11 @@ function addTask(){
 // titulo da tarefa
     const taskTitle = document.querySelector('#task-title').value;
 
+if (taskTitle.length == 0){
+    window.alert('Insira um valor para prosseguir!')
+
+}
+
 if(taskTitle){
 // clonar o templete
     const templete = document.querySelector('.templete');
