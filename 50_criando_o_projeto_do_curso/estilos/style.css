@@ -54,11 +54,6 @@ body {
     font-size: 17px;
 }
 
-#add-btn:hover{
-    background-color: #34073d;
-    color: white;
-}
-
 ion-icon {
     font-size: 15px;
 }
