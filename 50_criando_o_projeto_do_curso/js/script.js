@@ -5,7 +5,7 @@ function addTask(){
     const taskTitle = document.querySelector('#task-title').value;
 
 if (taskTitle.length == 0){
-    window.alert('Insira um valor para prosseguir!')
+    window.alert('Adicione uma tarefa para prosseguir!')
 
 }
 
